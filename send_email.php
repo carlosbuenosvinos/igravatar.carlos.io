@@ -1,7 +1,6 @@
 <?php
-
 	// Replace this with your own email address
-	$to="alterego@quepimquepam.com";
+	$to = "igravatar@carlos.io";
 
 	// Extract form contents
 	$name = $_POST['name'];
@@ -25,8 +24,8 @@
 	// Send email
 	if($errors =='') {
 
-		$headers =  'From: AlterEgo <no-reply@carlos.io>'. "\r\n" .
-					'Reply-To: '.$email.'' . "\r\n" .
+		$headers =  'From: iGravatar <no-reply@carlos.io>'. "\r\n" .
+					'Reply-To: ' . $email . '' . "\r\n" .
 					'X-Mailer: PHP/' . phpversion();
 		$email_subject = "Website Contact Form: $email";
 		$message="Name: $name \n\nEmail: $email \n\nWebsite: $website \n\nSubject: $subject \n\nMessage:\n\n $message";
@@ -37,5 +36,3 @@
 	} else {
 		echo $errors;
 	}
-
-?>
