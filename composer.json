@@ -1,0 +1,19 @@
+{
+    "name": "igravatar.carlos.io",
+    "type": "project",
+    "description": "igravatar.carlos.io Website",
+    "keywords": ["continuous delivery", "github hook"],
+    "homepage": "http://igravatar.carlos.io",
+    "license": "Copyright (c) Carlos Buenosvinos",
+    "authors": [
+        {
+            "name": "Carlos Buenosvinos",
+            "email": "hi@carlos.io",
+            "homepage": "http://carlos.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "carlosio/gitty": "dev-master"
+    }
+}
