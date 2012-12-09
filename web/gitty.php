@@ -1,1 +1,0 @@
-../vendor/carlosio/gitty/gitty.php
